@@ -30,7 +30,7 @@ const index = ({ userPhoto }) => {
                     <SettingsIcon />
                 </span>
                 <AppsIcon />
-                <img src='' alt="User Photo"/>
+                <img src={ userPhoto } alt="User Photo"/>
             </div>
         </div>
     )
